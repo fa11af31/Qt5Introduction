@@ -11,10 +11,9 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Qt5Introduction
 TEMPLATE = app
 
-
 SOURCES += main.cpp\
-        mainview.cpp
+        View/mainview.cpp
 
-HEADERS  += mainview.h
+HEADERS  += View/mainview.h
 
-FORMS    += mainview.ui
+FORMS    += View/mainview.ui
